@@ -1,0 +1,332 @@
+/* Element Css */
+body {}
+
+/* Title Section */
+.navbar li {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.container-fluid {
+  padding: .2% 17% 0 17%;
+}
+
+.a-des:hover {
+  color: #13B5EA;
+}
+
+/* title section */
+.bg-img {
+  background-image: url(../images/dark-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#title {
+  text-align: center;
+  color: white;
+}
+
+.h1-p h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.h1-p {
+  padding: 6% 35%;
+}
+
+.h1-p p {
+  margin-top: 4%;
+}
+
+/* Views Section */
+#views {
+  padding: 5% 16%;
+}
+
+.view-text {
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.view-text a {
+  color: #00A3D3;
+}
+
+.image-size {
+  width: 300px;
+  float: left;
+  margin-right: 2%;
+}
+
+.text-clear {
+  clear: right;
+  margin-left: 3%;
+}
+
+.text-clear a {
+  color: #00A3D3;
+  text-decoration: none;
+}
+
+.text-clear h5 {
+  font-size: 1.125rem;
+}
+
+.row-spacing {
+  margin-top: 5%;
+}
+
+/* Achieve section */
+#achieve {
+  padding: 3% 16%;
+}
+
+#achieve h3 {
+  margin-top: 2%;
+}
+
+ul .li-space {
+  margin-bottom: 10px;
+}
+
+/* business section */
+#business {
+  background-image: url(../images/business-bg-blue.jpg);
+  color: white;
+  text-align: left;
+}
+
+.content-padding {
+  padding: 5% 17% 7% 17%;
+}
+
+.img-center {
+  text-align: right;
+}
+
+.p-bold {
+  font-weight: bold;
+}
+
+.a-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+}
+
+.a-link:hover {
+  color: #00A3D3;
+}
+
+/* conatct section */
+#contact {
+  background-image: url("../images/hex-bg.png");
+  background-size: 100% 100%;
+  background-repeat: repeat-x;
+  text-align: center;
+  padding: 5% 30% 3% 30%;
+}
+
+.padding-top {
+  padding-top: 6%;
+}
+
+.btn {
+  margin: 3% 0 5% 0;
+}
+
+.btn:hover {
+  background-color: #00364C;
+}
+
+/* footer section */
+#footer {
+  background-color: #32465A;
+  padding: 3% 13% 3% 13%;
+  color: white;
+}
+
+/* navbar */
+.a-header {
+  color: white;
+  font-weight: bold;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.a-header:hover {
+  color: #6EA0AF;
+  text-decoration: none;
+}
+
+.li-format {
+  font-weight: normal;
+  padding-bottom: 5px;
+  font-size: .8rem;
+}
+
+.a-spacing {
+  padding: 5% 0;
+}
+
+.socail-media {
+  text-align: center;
+}
+
+.fa-margin {
+  margin: 0 1%;
+  color: white;
+}
+
+.fa-margin:hover {
+  color: #6EA0AF;
+}
+
+.btn-hover:hover {
+  background-color: #6EA0AF;
+  color:#fff;
+}
+
+/* legal section */
+#legal {
+  background-color: #2B3B4C;
+  text-align: center;
+  padding: .5% 10%;
+  color: white;
+}
+
+#legal p {
+  font-size: .7rem;
+  padding-top: 1%;
+}
+
+#legal a {
+  color: white;
+  margin: 0 1%;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+  #business {
+    text-align: center;
+  }
+
+  .img-center {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .h1-p {
+    padding: 6% 20%;
+  }
+
+  #achieve img {
+    text-align: center;
+    width: 450px;
+  }
+
+}
+
+/* Header Section */
+#header {
+  background-color: #1E3240;
+  color: #fff;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 3.5rem;
+}
+
+/* Statment section */
+#statment {
+  background-color: #F2F5F7;
+  padding: 5% 0 3% 7%;
+}
+
+#statment img {
+  width: 600px;
+}
+#statment p {
+  padding: 0 3% 0 20%;
+}
+#statment h4 {
+  padding:0 3% 0 20%;
+}
+
+/* Partners section */
+#partners{
+  text-align: center;
+  padding: 5% 12% 3% 12%;
+}
+#partners img {
+  width:640px;
+  margin: 0 .8%;
+}
+#partners p {
+  padding:0 23% 3% 23%;
+
+}
+/* case study section */
+#case-study {
+  background-color: #F2F5F7;
+  padding: 5% 10%;
+}
+.right{
+  text-align: left;
+}
+.left{
+text-align: right;
+}
+#case-study h3{
+  padding-right: 25%;
+}
+#csse-study p{
+  padding-right: 25%;
+}
+
+#contact-footer {
+  background-color: #1E3240;
+  color: #fff;
+  padding: 2.7% 10%;
+  text-align: center;
+}
+
+#contact-footer p {
+  margin: 0;
+}
+
+#contact-footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+/* article section */
+#articale {
+  text-align: center;
+  padding: 5% 17%;
+}
+#articale img {
+  width: 400px;
+  padding-top: 11%;
+}
+#articale h5{
+  margin-top: 3%;
+}
+#questions{
+  padding:5% 10%;
+  text-align: center;
+}
+.card{
+  
+}
